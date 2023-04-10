@@ -1,0 +1,397 @@
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/css/reset.css ***!
+  \**********************************************************************************************************************************************************************************/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+}
+/*!**********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/css/style.css ***!
+  \**********************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "Gilroy-medium";
+  src: url(../fonts/Gilroy-Medium.eot) format("eot"), url(../fonts/Gilroy-Medium.woff) format("woff"), url(../fonts/Gilroy-Medium.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy-bold";
+  src: url(../fonts/Gilroy-Bold.eot) format("eot"), url(../fonts/Gilroy-Bold.woff) format("woff"), url(../fonts/Gilroy-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+body {
+  max-width: 1445px;
+  margin: 0 auto;
+  font-family: "Gilroy-medium", sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+h2 {
+  font-family: "Gilroy-bold";
+  font-size: 1.9em;
+}
+
+.header {
+  width: 60%;
+  height: 70px;
+  margin: 0 auto;
+  color: #828282;
+  border-bottom: 1px solid #828282;
+  display: flex;
+  align-items: center;
+}
+
+.header > nav {
+  width: 100%;
+}
+
+.header ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.active {
+  font-family: "Gilroy-bold", sans-serif;
+  color: #000;
+}
+
+/* Section main info */
+.main-info {
+  width: 60%;
+  height: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+.main-info img {
+  width: 60%;
+  height: 75%;
+  margin: 0 auto;
+  box-shadow: 10px 10px 5px 0px rgb(112, 91, 94);
+}
+
+.main-info__wrapper {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.main-info__wrapper h1 {
+  font-family: "Gilroy-Bold";
+  text-transform: uppercase;
+  width: 15%;
+  font-size: 2.5em;
+  line-height: 1.25;
+}
+
+.main-info__wrapper p {
+  width: 30%;
+}
+
+.main-info__wrapper ul {
+  display: flex;
+  justify-content: space-between;
+  transform: rotate(270deg);
+  padding-top: 50px;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  line-height: 1.25;
+  width: 70px;
+}
+
+/* About me */
+.about-me {
+  width: 100%;
+  height: 450px;
+  background-color: #F6F6F6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-me__wrapper {
+  width: 34%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Diplomas */
+.diplomas {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.diplomas ul {
+  width: 80%;
+  height: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.diplomas li {
+  width: 30%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img[alt=Prometheus-first], img[alt=Prometheus-second] {
+  width: 100%;
+  height: 60%;
+}
+
+img[alt=ITEA] {
+  width: 80%;
+  height: 100%;
+}
+
+/* Slills */
+.skills {
+  width: 100%;
+  height: 300px;
+  margin: 0 auto 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills-list {
+  width: 80%;
+  height: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills-list ul {
+  display: flex;
+}
+
+.skills-list__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Gilroy-bold", sans-serif;
+  color: #828282;
+}
+
+.skills-list__item > img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Portfolio */
+.portfolio {
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F6F6F6;
+}
+
+.portfolio img {
+  width: 50%;
+  height: 70%;
+  box-shadow: 10px 10px 5px 0px rgb(112, 91, 94);
+}
+
+.portfolio a {
+  border-bottom: 2px solid #000;
+  font-size: 1.5em;
+  font-family: "Gilroy-bold", sans-serif;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  height: 500px;
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer ul {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer img {
+  width: 50px;
+  height: 50px;
+}
+
+.footer button {
+  width: 15%;
+  padding: 10px;
+  background-color: #000;
+  border-radius: 20px;
+  font-family: "Gilroy-bold", sans-serif;
+  color: #fff;
+  font-size: 1em;
+}
+
+.footer ul + p {
+  color: #828282;
+}
+
+/*# sourceMappingURL=main.9df48be1bb3fff850ffd.css.map*/
